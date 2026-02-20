@@ -1,0 +1,8 @@
+{
+  "name": "frameharu",
+  "compatibility_date": "2026-01-13",
+  "main": "workers-site/index.js",
+  "site": {
+    "bucket": "./dist"            
+  }
+}
