@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-teal: #00897B;
+    --color-teal-light: #E0F2F1;
+    --color-warm: #FAFAF7;
+    --color-warm-100: #F5F0EB;
+    --color-ink: #1A1A1A;
+    --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: #00897B;
+    color: white;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F5F0EB;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #00897B;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00796B;
+  }
+}
+
+@layer components {
+  /* Frame shadow effect - creates realistic depth */
+  .frame-shadow {
+    box-shadow:
+      0 2px 4px rgba(0,0,0,0.04),
+      0 8px 16px rgba(0,0,0,0.06),
+      0 24px 48px rgba(0,0,0,0.08);
+  }
+
+  .frame-shadow-hover {
+    box-shadow:
+      0 4px 8px rgba(0,0,0,0.06),
+      0 16px 32px rgba(0,0,0,0.08),
+      0 32px 64px rgba(0,0,0,0.12);
+  }
+
+  /* Diagonal section divider */
+  .diagonal-top {
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .diagonal-bottom {
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+  }
+
+  /* Grain overlay texture */
+  .grain-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* Horizontal scrollbar for carousels */
+  .scroll-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  .scroll-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Frame mat effect */
+  .mat-border {
+    border: 8px solid white;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+  }
+
+  /* Glass morphism */
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  /* Text gradient */
+  .text-gradient {
+    background: linear-gradient(135deg, #00897B 0%, #26A69A 50%, #004D40 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Staggered animation delays */
+  .stagger-1 { animation-delay: 0.1s; }
+  .stagger-2 { animation-delay: 0.2s; }
+  .stagger-3 { animation-delay: 0.3s; }
+  .stagger-4 { animation-delay: 0.4s; }
+  .stagger-5 { animation-delay: 0.5s; }
+}
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+}

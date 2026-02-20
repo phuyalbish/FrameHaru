@@ -1,0 +1,345 @@
+{
+  "frames": [
+    {
+      "id": "classic-black",
+      "name": "Classic Black",
+      "slug": "classic-black",
+      "color": "#1A1A1A",
+      "material": "Premium Wood",
+      "description": "Timeless matte black finish. Perfect for modern spaces.",
+      "borderWidth": 12,
+      "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=400&q=80",
+      "popular": true
+    },
+    {
+      "id": "natural-oak",
+      "name": "Natural Oak",
+      "slug": "natural-oak",
+      "color": "#C4A882",
+      "material": "Solid Oak Wood",
+      "description": "Warm natural oak grain. Brings organic warmth to any wall.",
+      "borderWidth": 14,
+      "image": "https://images.unsplash.com/photo-1582281298055-e25b84a1b7d5?w=400&q=80",
+      "popular": true
+    },
+    {
+      "id": "pure-white",
+      "name": "Pure White",
+      "slug": "pure-white",
+      "color": "#FFFFFF",
+      "material": "Premium Wood",
+      "description": "Clean white matte. Minimal and gallery-inspired.",
+      "borderWidth": 12,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80",
+      "popular": false
+    },
+    {
+      "id": "walnut-dark",
+      "name": "Dark Walnut",
+      "slug": "walnut-dark",
+      "color": "#5C4033",
+      "material": "Walnut Wood",
+      "description": "Rich dark walnut. Sophisticated and dramatic.",
+      "borderWidth": 14,
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&q=80",
+      "popular": false
+    },
+    {
+      "id": "teal-accent",
+      "name": "Haru Teal",
+      "slug": "teal-accent",
+      "color": "#00897B",
+      "material": "Premium Wood",
+      "description": "Our signature teal. Bold and distinctive.",
+      "borderWidth": 12,
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&q=80",
+      "popular": true
+    },
+    {
+      "id": "minimal-float",
+      "name": "Floating Frame",
+      "slug": "minimal-float",
+      "color": "transparent",
+      "material": "Acrylic + Metal",
+      "description": "Frameless floating design. Your photo appears to hover.",
+      "borderWidth": 4,
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&q=80",
+      "popular": false
+    },
+    {
+      "id": "gold-leaf",
+      "name": "Gold Leaf",
+      "slug": "gold-leaf",
+      "color": "#C5A55A",
+      "material": "Gold-Finished Wood",
+      "description": "Luxe gold leaf finish. For your most treasured moments.",
+      "borderWidth": 16,
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=400&q=80",
+      "popular": false
+    },
+    {
+      "id": "matte-grey",
+      "name": "Matte Grey",
+      "slug": "matte-grey",
+      "color": "#6B6B6B",
+      "material": "Premium Wood",
+      "description": "Understated grey matte. Versatile for any interior.",
+      "borderWidth": 12,
+      "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&q=80",
+      "popular": false
+    }
+  ],
+
+  "sizes": [
+    {
+      "id": "8x8",
+      "label": "8\" × 8\"",
+      "dimensions": "8×8 inches",
+      "cm": "20×20 cm",
+      "price": 850,
+      "currency": "NPR",
+      "description": "Perfect for small accent pieces"
+    },
+    {
+      "id": "8x12",
+      "label": "8\" × 12\"",
+      "dimensions": "8×12 inches",
+      "cm": "20×30 cm",
+      "price": 1200,
+      "currency": "NPR",
+      "description": "Classic portrait format"
+    },
+    {
+      "id": "12x12",
+      "label": "12\" × 12\"",
+      "dimensions": "12×12 inches",
+      "cm": "30×30 cm",
+      "price": 1450,
+      "currency": "NPR",
+      "description": "Our most popular size"
+    },
+    {
+      "id": "12x16",
+      "label": "12\" × 16\"",
+      "dimensions": "12×16 inches",
+      "cm": "30×40 cm",
+      "price": 1800,
+      "currency": "NPR",
+      "description": "Great for statement pieces"
+    },
+    {
+      "id": "16x20",
+      "label": "16\" × 20\"",
+      "dimensions": "16×20 inches",
+      "cm": "40×50 cm",
+      "price": 2400,
+      "currency": "NPR",
+      "description": "Large format beauty"
+    },
+    {
+      "id": "20x20",
+      "label": "20\" × 20\"",
+      "dimensions": "20×20 inches",
+      "cm": "50×50 cm",
+      "price": 2800,
+      "currency": "NPR",
+      "description": "Bold square statement"
+    }
+  ],
+
+  "matOptions": [
+    { "id": "none", "label": "No Mat", "price": 0 },
+    { "id": "white", "label": "White Mat", "color": "#FFFFFF", "price": 200 },
+    { "id": "cream", "label": "Cream Mat", "color": "#F5F0EB", "price": 200 },
+    { "id": "black", "label": "Black Mat", "color": "#1A1A1A", "price": 200 }
+  ],
+
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Priya Sharma",
+      "location": "Lalitpur",
+      "text": "I uploaded our wedding photos on a Sunday morning and they arrived beautifully framed by Wednesday. The quality is incredible — it looks like something from an expensive gallery.",
+      "frame": "Natural Oak",
+      "size": "12×16\"",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Rajesh Thapa",
+      "location": "Kathmandu",
+      "text": "Created a gallery wall of our family trip to Pokhara. The frames arrived perfectly packed and the magnetic hanging system is genius — no nails needed!",
+      "frame": "Classic Black",
+      "size": "8×8\"",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Anita Gurung",
+      "location": "Bhaktapur",
+      "text": "Gifted framed photos to my parents for their anniversary. They were so touched. The Haru Teal frame is absolutely stunning — so unique!",
+      "frame": "Haru Teal",
+      "size": "12×12\"",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
+      "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600&q=80",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name": "Suman Maharjan",
+      "location": "Patan",
+      "text": "As a photographer, print quality matters to me. FrameHaru delivers museum-grade prints with incredible color accuracy. This is my go-to for client gifts now.",
+      "frame": "Floating Frame",
+      "size": "16×20\"",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80",
+      "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "name": "Kabita Rai",
+      "location": "Kathmandu",
+      "text": "I redecorated my entire living room wall in one afternoon. The online tool made it so easy to see how everything would look together before ordering.",
+      "frame": "Pure White",
+      "size": "20×20\"",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80",
+      "rating": 5
+    }
+  ],
+
+  "galleryImages": [
+    {
+      "id": 1,
+      "src": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+      "alt": "Wedding couple photo in natural oak frame",
+      "category": "wedding"
+    },
+    {
+      "id": 2,
+      "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "alt": "Mountain landscape in black frame",
+      "category": "landscape"
+    },
+    {
+      "id": 3,
+      "src": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&q=80",
+      "alt": "Child playing in white frame",
+      "category": "family"
+    },
+    {
+      "id": 4,
+      "src": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80",
+      "alt": "Aerial nature view in teal frame",
+      "category": "nature"
+    },
+    {
+      "id": 5,
+      "src": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80",
+      "alt": "Starry night mountain in floating frame",
+      "category": "landscape"
+    },
+    {
+      "id": 6,
+      "src": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&q=80",
+      "alt": "Festival celebration photo",
+      "category": "celebration"
+    },
+    {
+      "id": 7,
+      "src": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80",
+      "alt": "Misty forest landscape",
+      "category": "nature"
+    },
+    {
+      "id": 8,
+      "src": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80",
+      "alt": "Golden sunset landscape",
+      "category": "landscape"
+    }
+  ],
+
+  "wallLayouts": [
+    {
+      "id": "grid-4",
+      "name": "Classic Grid",
+      "count": 4,
+      "positions": [
+        { "x": 10, "y": 10, "w": 45, "h": 45 },
+        { "x": 55, "y": 10, "w": 45, "h": 45 },
+        { "x": 10, "y": 55, "w": 45, "h": 45 },
+        { "x": 55, "y": 55, "w": 45, "h": 45 }
+      ]
+    },
+    {
+      "id": "staircase-3",
+      "name": "Staircase",
+      "count": 3,
+      "positions": [
+        { "x": 5, "y": 55, "w": 30, "h": 40 },
+        { "x": 38, "y": 30, "w": 30, "h": 40 },
+        { "x": 71, "y": 5, "w": 30, "h": 40 }
+      ]
+    },
+    {
+      "id": "gallery-5",
+      "name": "Gallery Wall",
+      "count": 5,
+      "positions": [
+        { "x": 5, "y": 5, "w": 40, "h": 55 },
+        { "x": 48, "y": 5, "w": 25, "h": 25 },
+        { "x": 75, "y": 5, "w": 25, "h": 25 },
+        { "x": 48, "y": 33, "w": 52, "h": 30 },
+        { "x": 48, "y": 66, "w": 52, "h": 30 }
+      ]
+    },
+    {
+      "id": "asymmetric-3",
+      "name": "Asymmetric",
+      "count": 3,
+      "positions": [
+        { "x": 5, "y": 10, "w": 55, "h": 80 },
+        { "x": 63, "y": 10, "w": 35, "h": 38 },
+        { "x": 63, "y": 52, "w": 35, "h": 38 }
+      ]
+    }
+  ],
+
+  "deliveryZones": [
+    { "zone": "Kathmandu Valley", "fee": 0, "days": "2-3 business days" },
+    { "zone": "Pokhara", "fee": 250, "days": "4-5 business days" },
+    { "zone": "Chitwan", "fee": 300, "days": "5-7 business days" },
+    { "zone": "Other Nepal", "fee": 400, "days": "7-10 business days" }
+  ],
+
+  "faqs": [
+    {
+      "q": "What photo quality do I need?",
+      "a": "We recommend photos that are at least 2 megapixels (1600×1200 pixels). Most smartphone cameras easily exceed this. Our tool will warn you if a photo's resolution is too low for your selected size."
+    },
+    {
+      "q": "How does delivery work in Kathmandu?",
+      "a": "We deliver throughout the Kathmandu Valley within 2-3 business days. Each frame is individually wrapped in protective packaging. Free delivery on all orders within the valley!"
+    },
+    {
+      "q": "Can I return or exchange my frames?",
+      "a": "Absolutely! If you're not 100% satisfied, contact us within 7 days of delivery. We'll either reprint, exchange, or refund — no questions asked."
+    },
+    {
+      "q": "How do the frames hang on the wall?",
+      "a": "Each frame comes with an easy-mount magnetic strip system. Just peel, stick to the wall, and attach your frame magnetically. No nails, no damage — and you can reposition anytime."
+    },
+    {
+      "q": "Do you offer bulk or corporate orders?",
+      "a": "Yes! We offer special pricing for orders of 10+ frames. Contact us at hello@frameharu.com for custom corporate packages — perfect for offices, hotels, and restaurants."
+    },
+    {
+      "q": "What materials are the frames made from?",
+      "a": "Our frames are crafted from sustainably sourced hardwood and premium acrylic. Every frame is handfinished in our Kathmandu workshop by local artisans."
+    }
+  ]
+}
