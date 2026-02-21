@@ -1,4 +1,4 @@
-# FrameHaru — Your Memories, Beautifully Framed
+# FrameHaru - Your Memories, Beautifully Framed
 
 A React + Vite e-commerce platform for custom photo framing, built for Kathmandu, Nepal.
 

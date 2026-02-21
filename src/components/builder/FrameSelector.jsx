@@ -22,7 +22,7 @@ export default function FrameSelector({ selectedFrame, onSelect }) {
         <h3 className="font-display font-semibold text-ink-900">Choose Frame</h3>
         {selectedFrame && (
           <span className="text-sm text-teal-600 font-display">
-            {selectedFrame.name} — {selectedFrame.material}
+            {selectedFrame.name} - {selectedFrame.material}
           </span>
         )}
       </div>

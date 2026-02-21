@@ -100,13 +100,13 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-ink-500 text-lg leading-relaxed">
                 <p>
-                  We started FrameHaru because we noticed something — our most precious moments were trapped in phone galleries, rarely seen again. In Nepal, custom framing was expensive, time-consuming, and required visiting a shop.
+                  We started FrameHaru because we noticed something - our most precious moments were trapped in phone galleries, rarely seen again. In Nepal, custom framing was expensive, time-consuming, and required visiting a shop.
                 </p>
                 <p>
                   We wanted to change that. Now you can turn any photo into a beautifully framed piece of wall art from the comfort of your couch. Each frame is handcrafted in our Kathmandu workshop using sustainably sourced materials and museum-grade printing.
                 </p>
                 <p>
-                  "Haru" means "plural" in Nepali — because one frame is never enough. Once you see your memories on your wall, you'll want them everywhere.
+                  "Haru" means "plural" in Nepali - because one frame is never enough. Once you see your memories on your wall, you'll want them everywhere.
                 </p>
               </div>
               <div className="mt-8">

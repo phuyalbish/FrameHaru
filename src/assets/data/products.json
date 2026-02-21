@@ -8,7 +8,7 @@
       "material": "Premium Wood",
       "description": "Timeless matte black finish. Perfect for modern spaces.",
       "borderWidth": 12,
-      "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&q=80",
       "popular": true
     },
     {
@@ -19,7 +19,7 @@
       "material": "Solid Oak Wood",
       "description": "Warm natural oak grain. Brings organic warmth to any wall.",
       "borderWidth": 14,
-      "image": "https://images.unsplash.com/photo-1582281298055-e25b84a1b7d5?w=400&q=80",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&q=80",
       "popular": true
     },
     {
@@ -93,54 +93,54 @@
   "sizes": [
     {
       "id": "8x8",
-      "label": "8\" × 8\"",
-      "dimensions": "8×8 inches",
-      "cm": "20×20 cm",
+      "label": "8\" * 8\"",
+      "dimensions": "8*8 inches",
+      "cm": "20*20 cm",
       "price": 850,
       "currency": "NPR",
       "description": "Perfect for small accent pieces"
     },
     {
       "id": "8x12",
-      "label": "8\" × 12\"",
-      "dimensions": "8×12 inches",
-      "cm": "20×30 cm",
+      "label": "8\" * 12\"",
+      "dimensions": "8*12 inches",
+      "cm": "20*30 cm",
       "price": 1200,
       "currency": "NPR",
       "description": "Classic portrait format"
     },
     {
       "id": "12x12",
-      "label": "12\" × 12\"",
-      "dimensions": "12×12 inches",
-      "cm": "30×30 cm",
+      "label": "12\" * 12\"",
+      "dimensions": "12*12 inches",
+      "cm": "30*30 cm",
       "price": 1450,
       "currency": "NPR",
       "description": "Our most popular size"
     },
     {
       "id": "12x16",
-      "label": "12\" × 16\"",
-      "dimensions": "12×16 inches",
-      "cm": "30×40 cm",
+      "label": "12\" * 16\"",
+      "dimensions": "12*16 inches",
+      "cm": "30*40 cm",
       "price": 1800,
       "currency": "NPR",
       "description": "Great for statement pieces"
     },
     {
       "id": "16x20",
-      "label": "16\" × 20\"",
-      "dimensions": "16×20 inches",
-      "cm": "40×50 cm",
+      "label": "16\" * 20\"",
+      "dimensions": "16*20 inches",
+      "cm": "40*50 cm",
       "price": 2400,
       "currency": "NPR",
       "description": "Large format beauty"
     },
     {
       "id": "20x20",
-      "label": "20\" × 20\"",
-      "dimensions": "20×20 inches",
-      "cm": "50×50 cm",
+      "label": "20\" * 20\"",
+      "dimensions": "20*20 inches",
+      "cm": "50*50 cm",
       "price": 2800,
       "currency": "NPR",
       "description": "Bold square statement"
@@ -159,20 +159,20 @@
       "id": 1,
       "name": "Priya Sharma",
       "location": "Lalitpur",
-      "text": "I uploaded our wedding photos on a Sunday morning and they arrived beautifully framed by Wednesday. The quality is incredible — it looks like something from an expensive gallery.",
+      "text": "I uploaded our wedding photos on a Sunday morning and they arrived beautifully framed by Wednesday. The quality is incredible - it looks like something from an expensive gallery.",
       "frame": "Natural Oak",
-      "size": "12×16\"",
+      "size": "12*16\"",
       "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
-      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&q=80",
       "rating": 5
     },
     {
       "id": 2,
       "name": "Rajesh Thapa",
       "location": "Kathmandu",
-      "text": "Created a gallery wall of our family trip to Pokhara. The frames arrived perfectly packed and the magnetic hanging system is genius — no nails needed!",
+      "text": "Created a gallery wall of our family trip to Pokhara. The frames arrived perfectly packed and the magnetic hanging system is genius - no nails needed!",
       "frame": "Classic Black",
-      "size": "8×8\"",
+      "size": "8*8\"",
       "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
       "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       "rating": 5
@@ -181,9 +181,9 @@
       "id": 3,
       "name": "Anita Gurung",
       "location": "Bhaktapur",
-      "text": "Gifted framed photos to my parents for their anniversary. They were so touched. The Haru Teal frame is absolutely stunning — so unique!",
+      "text": "Gifted framed photos to my parents for their anniversary. They were so touched. The Haru Teal frame is absolutely stunning - so unique!",
       "frame": "Haru Teal",
-      "size": "12×12\"",
+      "size": "12*12\"",
       "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
       "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600&q=80",
       "rating": 5
@@ -194,7 +194,7 @@
       "location": "Patan",
       "text": "As a photographer, print quality matters to me. FrameHaru delivers museum-grade prints with incredible color accuracy. This is my go-to for client gifts now.",
       "frame": "Floating Frame",
-      "size": "16×20\"",
+      "size": "16*20\"",
       "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80",
       "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80",
       "rating": 5
@@ -205,7 +205,7 @@
       "location": "Kathmandu",
       "text": "I redecorated my entire living room wall in one afternoon. The online tool made it so easy to see how everything would look together before ordering.",
       "frame": "Pure White",
-      "size": "20×20\"",
+      "size": "20*20\"",
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80",
       "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80",
       "rating": 5
@@ -327,15 +327,15 @@
     },
     {
       "q": "Can I return or exchange my frames?",
-      "a": "Absolutely! If you're not 100% satisfied, contact us within 7 days of delivery. We'll either reprint, exchange, or refund — no questions asked."
+      "a": "Absolutely! If you're not 100% satisfied, contact us within 7 days of delivery. We'll either reprint, exchange, or refund - no questions asked."
     },
     {
       "q": "How do the frames hang on the wall?",
-      "a": "Each frame comes with an easy-mount magnetic strip system. Just peel, stick to the wall, and attach your frame magnetically. No nails, no damage — and you can reposition anytime."
+      "a": "Each frame comes with an easy-mount magnetic strip system. Just peel, stick to the wall, and attach your frame magnetically. No nails, no damage - and you can reposition anytime."
     },
     {
       "q": "Do you offer bulk or corporate orders?",
-      "a": "Yes! We offer special pricing for orders of 10+ frames. Contact us at hello@frameharu.com for custom corporate packages — perfect for offices, hotels, and restaurants."
+      "a": "Yes! We offer special pricing for orders of 10+ frames. Contact us at hello@frameharu.com for custom corporate packages - perfect for offices, hotels, and restaurants."
     },
     {
       "q": "What materials are the frames made from?",

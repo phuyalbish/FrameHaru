@@ -318,7 +318,7 @@ export default function CheckoutPage() {
                   size="lg"
                   className="w-full"
                 >
-                  Place Order — {formatPrice(grandTotal)}
+                  Place Order - {formatPrice(grandTotal)}
                 </Button>
               </div>
 

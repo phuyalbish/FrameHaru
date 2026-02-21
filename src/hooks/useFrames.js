@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import productsData from '../assets/data/products.json'
 
-// Simulates API call — swap with real endpoint in production
+// Simulates API call - swap with real endpoint in production
 const fetchFrames = async () => {
   await new Promise((r) => setTimeout(r, 300))
   return productsData.frames

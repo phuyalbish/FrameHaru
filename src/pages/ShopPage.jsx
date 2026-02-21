@@ -34,7 +34,7 @@ export default function ShopPage() {
             <h1 className="font-display text-display text-ink-900">
               Frames crafted with
               <br />
-              <span className="text-gradient">intention</span>
+              <span className="text-teal-500">intention</span>
             </h1>
             <Link to="/create">
               <Button variant="primary" size="md">
